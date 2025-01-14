@@ -23,9 +23,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-h84++$n@h$c)_vpk36k25%)hj!304i$3h2940(if=$rn(4h6&^'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = ['8000-sabribel-djangoprojectt-9vfh1q2ot7j.ws.codeinstitute-ide.net']
+ALLOWED_HOSTS = ['8000-sabribel-djangoprojectt-9vfh1q2ot7j.ws.codeinstitute-ide.net', '.herokuapp.com']
 
 
 # Application definition
@@ -39,7 +39,6 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'hello_world',
     'about',
-    'Sabritest',
 ]
 
 MIDDLEWARE = [
